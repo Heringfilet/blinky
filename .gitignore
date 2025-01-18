@@ -1,0 +1,45 @@
+# vim files
+*.swo
+*.swp
+
+# Ignore temporary files and build outputs
+*.o
+*.obj
+*.exe
+*.bin
+*.elf
+*.hex
+*.log
+*.jou
+*.str
+*.wdb
+*.wcfg
+*.xml
+
+# Ignore VHDL-specific temporary and generated files
+*.vcd
+*.wlf
+*.cf
+*.syn
+*.sdf
+*.ngc
+*.ngr
+*.lso
+*.xrf
+*.xrpt
+*.xtxt
+*.tcl
+
+# Ignore simulation and synthesis tool directories
+sim/
+synth/
+work/
+out/
+
+# Ignore IDE-specific files and directories
+.idea/
+*.iml
+*.class
+
+# Ignore generated documentation
+docs/
